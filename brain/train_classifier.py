@@ -8,8 +8,8 @@ from sklearn.metrics import classification_report
 import joblib
 
 # 1. Configuración de rutas
-RUTA_DATOS = "../data/CIC-IDS2017/*.csv"  # Busca todos los CSV en la carpeta data
-RUTA_MODELO = "web_network_model.pkl"
+RUTA_DATOS = "data/CIC-IDS2017/*.csv" 
+RUTA_MODELO = "brain/web_network_model.pkl"
 
 def cargar_y_limpiar_datos(ruta):
     archivos_csv = glob.glob(ruta)
