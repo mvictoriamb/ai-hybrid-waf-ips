@@ -29,7 +29,7 @@ The project is divided into four highly modular components:
 ## 🗺️ Roadmap & Development Phases
 
 - [x] **Phase 0:** System Architecture & Repository Structure Design
-- [ ] **Phase 1 (Ongoing):** Data preparation and Machine Learning model training (Random Forest + CIC-IDS2017 dataset).
-- [ ] **Phase 2:** Development of the Core defense scripts, traffic sniffing, and dynamic firewall management.
+- [x] **Phase 1:** Data preparation and Machine Learning model training (Random Forest + CIC-IDS2017 dataset).
+- [ ] **Phase 2 (Ongoing):** Development of the Core defense scripts, traffic sniffing, and dynamic firewall management.
 - [ ] **Phase 3:** Integration of the Flask Honeypot to capture and mitigate web-specific attacks (Layer 7).
 - [ ] **Phase 4:** Implementation of the Generative AI automated reporting module.
